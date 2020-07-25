@@ -1,0 +1,1156 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "Nibble++"
+Date "2018-11-11"
+Rev "V1.0"
+Comp "Binary Kitchen e.V."
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 4xxx:4017 U2
+U 1 1 5BE4528B
+P 4250 2250
+F 0 "U2" H 4000 3000 50  0000 C CNN
+F 1 "4017" H 4050 2900 50  0000 C CNN
+F 2 "nibble++:SOP-16_4.4x10.4mm_P1.27mm_simple_drawing" H 4250 2250 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf" H 4250 2250 50  0001 C CNN
+	1    4250 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5BE454FE
+P 2400 850
+F 0 "C1" H 2285 804 50  0000 R CNN
+F 1 "100n" H 2285 895 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2438 700 50  0001 C CNN
+F 3 "~" H 2400 850 50  0001 C CNN
+	1    2400 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5BE456E7
+P 2400 1000
+F 0 "#PWR0101" H 2400 750 50  0001 C CNN
+F 1 "GND" H 2405 827 50  0000 C CNN
+F 2 "" H 2400 1000 50  0001 C CNN
+F 3 "" H 2400 1000 50  0001 C CNN
+	1    2400 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5BE458A5
+P 2000 750
+F 0 "#FLG0101" H 2000 825 50  0001 C CNN
+F 1 "PWR_FLAG" H 2000 924 50  0000 C CNN
+F 2 "" H 2000 750 50  0001 C CNN
+F 3 "~" H 2000 750 50  0001 C CNN
+	1    2000 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5BE45906
+P 2000 750
+F 0 "#PWR0103" H 2000 500 50  0001 C CNN
+F 1 "GND" H 2005 577 50  0000 C CNN
+F 2 "" H 2000 750 50  0001 C CNN
+F 3 "" H 2000 750 50  0001 C CNN
+	1    2000 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5BE46258
+P 2550 2350
+F 0 "#PWR0105" H 2550 2100 50  0001 C CNN
+F 1 "GND" H 2555 2177 50  0000 C CNN
+F 2 "" H 2550 2350 50  0001 C CNN
+F 3 "" H 2550 2350 50  0001 C CNN
+	1    2550 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 4250 1450 1    50   Input ~ 0
+VS
+$Comp
+L power:GND #PWR0106
+U 1 1 5BE4667C
+P 4250 3150
+F 0 "#PWR0106" H 4250 2900 50  0001 C CNN
+F 1 "GND" H 4255 2977 50  0000 C CNN
+F 2 "" H 4250 3150 50  0001 C CNN
+F 3 "" H 4250 3150 50  0001 C CNN
+	1    4250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5BE466C8
+P 3750 1850
+F 0 "#PWR0107" H 3750 1600 50  0001 C CNN
+F 1 "GND" V 3755 1722 50  0000 R CNN
+F 2 "" H 3750 1850 50  0001 C CNN
+F 3 "" H 3750 1850 50  0001 C CNN
+	1    3750 1850
+	0    1    1    0   
+$EndComp
+NoConn ~ 4750 2350
+NoConn ~ 4750 2450
+NoConn ~ 4750 2550
+NoConn ~ 4750 2650
+NoConn ~ 4750 2850
+$Comp
+L power:GND #PWR0113
+U 1 1 5BE484D7
+P 1750 1950
+F 0 "#PWR0113" H 1750 1700 50  0001 C CNN
+F 1 "GND" V 1755 1822 50  0000 R CNN
+F 2 "" H 1750 1950 50  0001 C CNN
+F 3 "" H 1750 1950 50  0001 C CNN
+	1    1750 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5BE5A917
+P 1600 750
+F 0 "#FLG0102" H 1600 825 50  0001 C CNN
+F 1 "PWR_FLAG" H 1600 924 50  0000 C CNN
+F 2 "" H 1600 750 50  0001 C CNN
+F 3 "~" H 1600 750 50  0001 C CNN
+	1    1600 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0116
+U 1 1 5BE5A93E
+P 1600 750
+F 0 "#PWR0116" H 1600 600 50  0001 C CNN
+F 1 "+3.3V" H 1615 923 50  0000 C CNN
+F 2 "" H 1600 750 50  0001 C CNN
+F 3 "" H 1600 750 50  0001 C CNN
+	1    1600 750 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5BE5B2BC
+P 1150 750
+F 0 "#FLG0103" H 1150 825 50  0001 C CNN
+F 1 "PWR_FLAG" H 1150 924 50  0000 C CNN
+F 2 "" H 1150 750 50  0001 C CNN
+F 3 "~" H 1150 750 50  0001 C CNN
+	1    1150 750 
+	1    0    0    -1  
+$EndComp
+Text GLabel 1150 750  3    50   Input ~ 0
+VS
+$Comp
+L Device:C C3
+U 1 1 5BE5B433
+P 1900 1950
+F 0 "C3" V 1750 1950 50  0000 C CNN
+F 1 "100n F" V 2050 1950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1938 1800 50  0001 C CNN
+F 3 "~" H 1900 1950 50  0001 C CNN
+	1    1900 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5BE5B548
+P 1050 1650
+F 0 "R6" H 1120 1696 50  0000 L CNN
+F 1 "100k Ohm" H 1120 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 980 1650 50  0001 C CNN
+F 3 "~" H 1050 1650 50  0001 C CNN
+	1    1050 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5BE5B5C6
+P 1050 2050
+F 0 "R7" H 981 2096 50  0000 R CNN
+F 1 "100k Ohm" H 981 2005 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 980 2050 50  0001 C CNN
+F 3 "~" H 1050 2050 50  0001 C CNN
+	1    1050 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1800 1050 1850
+Wire Wire Line
+	2050 2150 1350 2150
+Wire Wire Line
+	1350 2150 1350 1500
+Connection ~ 1350 1500
+Wire Wire Line
+	1350 1500 1050 1500
+Text GLabel 1050 1350 1    50   Input ~ 0
+VS
+Wire Wire Line
+	3050 1950 3200 1950
+Wire Wire Line
+	3200 1950 3200 2700
+Wire Wire Line
+	1250 2700 1250 1850
+Wire Wire Line
+	1250 1850 1050 1850
+Connection ~ 1050 1850
+Wire Wire Line
+	1050 1850 1050 1900
+$Comp
+L Device:C C2
+U 1 1 5BE5CF5C
+P 1050 2550
+F 0 "C2" H 1165 2504 50  0000 L CNN
+F 1 "1µ F" H 1165 2595 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1088 2400 50  0001 C CNN
+F 3 "~" H 1050 2550 50  0001 C CNN
+	1    1050 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1050 2400 1050 2300
+Wire Wire Line
+	2050 1750 1450 1750
+Wire Wire Line
+	1450 1750 1450 2300
+Wire Wire Line
+	1450 2300 1050 2300
+Connection ~ 1050 2300
+Wire Wire Line
+	1050 2300 1050 2200
+Wire Wire Line
+	3050 2150 3050 2600
+Wire Wire Line
+	3050 2600 1450 2600
+Wire Wire Line
+	1450 2600 1450 2300
+Connection ~ 1450 2300
+$Comp
+L power:GND #PWR0102
+U 1 1 5BE5E8EA
+P 1050 2700
+F 0 "#PWR0102" H 1050 2450 50  0001 C CNN
+F 1 "GND" V 1055 2572 50  0000 R CNN
+F 2 "" H 1050 2700 50  0001 C CNN
+F 3 "" H 1050 2700 50  0001 C CNN
+	1    1050 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 2400 700  1    50   Input ~ 0
+VS
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 1 1 5BE7072A
+P 2950 900
+F 0 "SW1" V 2904 1048 50  0000 L CNN
+F 1 "SW_DPDT_x2" V 2995 1048 50  0000 L CNN
+F 2 "nibble++:smd_switch_slide" H 2950 900 50  0001 C CNN
+F 3 "" H 2950 900 50  0001 C CNN
+	1    2950 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5BE70824
+P 2950 700
+F 0 "#PWR0104" H 2950 550 50  0001 C CNN
+F 1 "+3.3V" H 2965 873 50  0000 C CNN
+F 2 "" H 2950 700 50  0001 C CNN
+F 3 "" H 2950 700 50  0001 C CNN
+	1    2950 700 
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 1100 3    50   Input ~ 0
+VS
+NoConn ~ 2850 1100
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5BE72A56
+P 650 900
+F 0 "BT1" H 768 996 50  0000 L CNN
+F 1 "CR2023" H 768 905 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_1060_1x2032" V 650 960 50  0001 C CNN
+F 3 "~" V 650 960 50  0001 C CNN
+	1    650  900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5BE72B54
+P 650 1000
+F 0 "#PWR0114" H 650 750 50  0001 C CNN
+F 1 "GND" H 655 827 50  0000 C CNN
+F 2 "" H 650 1000 50  0001 C CNN
+F 3 "" H 650 1000 50  0001 C CNN
+	1    650  1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0115
+U 1 1 5BE72B85
+P 650 700
+F 0 "#PWR0115" H 650 550 50  0001 C CNN
+F 1 "+3.3V" H 665 873 50  0000 C CNN
+F 2 "" H 650 700 50  0001 C CNN
+F 3 "" H 650 700 50  0001 C CNN
+	1    650  700 
+	1    0    0    -1  
+$EndComp
+Text Notes 1250 3350 0    50   ~ 0
+NE555 Oscillator\nf = 1/((R6+2*R7)*ln(2)*C2)\nt_high = (R6+R7)*ln(2)*C2\n\nFor R6 = 100k, R7 = 100k and C1 = 1µF:\nf = 4.8 Hz\nt_high = 0.138 s\n
+Wire Wire Line
+	9450 5050 9900 5050
+Wire Wire Line
+	9900 5450 9900 5050
+Wire Wire Line
+	2550 1500 2550 1550
+Wire Wire Line
+	1350 1500 2550 1500
+Wire Wire Line
+	1050 1350 1050 1500
+Connection ~ 1050 1500
+$Comp
+L Timer:NE555D U?
+U 1 1 5F1C16AF
+P 2550 1950
+F 0 "U?" H 2550 2531 50  0000 C CNN
+F 1 "NE555D" H 2550 2440 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3400 1550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 3400 1550 50  0001 C CNN
+	1    2550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4017 U?
+U 1 1 5F1C75B8
+P 4250 4450
+F 0 "U?" H 4000 5200 50  0000 C CNN
+F 1 "4017" H 4050 5100 50  0000 C CNN
+F 2 "nibble++:SOP-16_4.4x10.4mm_P1.27mm_simple_drawing" H 4250 4450 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf" H 4250 4450 50  0001 C CNN
+	1    4250 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 4250 3650 1    50   Input ~ 0
+VS
+$Comp
+L power:GND #PWR?
+U 1 1 5F1C8741
+P 3750 4050
+F 0 "#PWR?" H 3750 3800 50  0001 C CNN
+F 1 "GND" V 3755 3922 50  0000 R CNN
+F 2 "" H 3750 4050 50  0001 C CNN
+F 3 "" H 3750 4050 50  0001 C CNN
+	1    3750 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F1C8D6B
+P 4250 5350
+F 0 "#PWR?" H 4250 5100 50  0001 C CNN
+F 1 "GND" H 4255 5177 50  0000 C CNN
+F 2 "" H 4250 5350 50  0001 C CNN
+F 3 "" H 4250 5350 50  0001 C CNN
+	1    4250 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 5150 10000 4950
+Wire Wire Line
+	9450 4950 10000 4950
+Wire Wire Line
+	9450 4850 10150 4850
+$Comp
+L power:GND #PWR0112
+U 1 1 5BE47A81
+P 10750 6050
+F 0 "#PWR0112" H 10750 5800 50  0001 C CNN
+F 1 "GND" V 10755 5922 50  0000 R CNN
+F 2 "" H 10750 6050 50  0001 C CNN
+F 3 "" H 10750 6050 50  0001 C CNN
+	1    10750 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5BE47A5A
+P 10750 5750
+F 0 "#PWR0111" H 10750 5500 50  0001 C CNN
+F 1 "GND" V 10755 5622 50  0000 R CNN
+F 2 "" H 10750 5750 50  0001 C CNN
+F 3 "" H 10750 5750 50  0001 C CNN
+	1    10750 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5BE47A33
+P 10750 5450
+F 0 "#PWR0110" H 10750 5200 50  0001 C CNN
+F 1 "GND" V 10755 5322 50  0000 R CNN
+F 2 "" H 10750 5450 50  0001 C CNN
+F 3 "" H 10750 5450 50  0001 C CNN
+	1    10750 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5BE47A0C
+P 10750 5150
+F 0 "#PWR0109" H 10750 4900 50  0001 C CNN
+F 1 "GND" V 10755 5022 50  0000 R CNN
+F 2 "" H 10750 5150 50  0001 C CNN
+F 3 "" H 10750 5150 50  0001 C CNN
+	1    10750 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5BE479B4
+P 10750 4850
+F 0 "#PWR0108" H 10750 4600 50  0001 C CNN
+F 1 "GND" V 10755 4722 50  0000 R CNN
+F 2 "" H 10750 4850 50  0001 C CNN
+F 3 "" H 10750 4850 50  0001 C CNN
+	1    10750 4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9700 6050 10150 6050
+Wire Wire Line
+	9800 5750 10150 5750
+Wire Wire Line
+	9900 5450 10150 5450
+Wire Wire Line
+	10000 5150 10150 5150
+$Comp
+L Device:R R5
+U 1 1 5BE4305F
+P 10300 6050
+F 0 "R5" V 10093 6050 50  0000 C CNN
+F 1 "33 Ohm" V 10184 6050 50  0000 C CNN
+F 2 "nibble++:R_01005_0402Metric_hand_soldering" V 10230 6050 50  0001 C CNN
+F 3 "~" H 10300 6050 50  0001 C CNN
+	1    10300 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5BE43033
+P 10300 5750
+F 0 "R4" V 10093 5750 50  0000 C CNN
+F 1 "330 Ohm" V 10184 5750 50  0000 C CNN
+F 2 "nibble++:R_0201_0603Metric_hand_soldering" V 10230 5750 50  0001 C CNN
+F 3 "~" H 10300 5750 50  0001 C CNN
+	1    10300 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5BE42FFD
+P 10300 5450
+F 0 "R3" V 10093 5450 50  0000 C CNN
+F 1 "62 Ohm" V 10184 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10230 5450 50  0001 C CNN
+F 3 "~" H 10300 5450 50  0001 C CNN
+	1    10300 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5BE42FCF
+P 10300 5150
+F 0 "R2" V 10093 5150 50  0000 C CNN
+F 1 "82 Ohm" V 10184 5150 50  0000 C CNN
+F 2 "nibble++:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10230 5150 50  0001 C CNN
+F 3 "~" H 10300 5150 50  0001 C CNN
+	1    10300 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5BE42EB9
+P 10300 4850
+F 0 "R1" V 10093 4850 50  0000 C CNN
+F 1 "82 Ohm" V 10184 4850 50  0000 C CNN
+F 2 "nibble++:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10230 4850 50  0001 C CNN
+F 3 "~" H 10300 4850 50  0001 C CNN
+	1    10300 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 5BE42E66
+P 10600 6050
+F 0 "D5" H 10600 5950 50  0000 C CNN
+F 1 "0201 LED Blue" H 10600 6150 50  0000 C CNN
+F 2 "nibble++:LED_0201_0603Metric_hand_soldering" H 10600 6050 50  0001 C CNN
+F 3 "~" H 10600 6050 50  0001 C CNN
+	1    10600 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5BE42E3C
+P 10600 5750
+F 0 "D4" H 10600 5650 50  0000 C CNN
+F 1 "0201 LED Green" H 10600 5850 50  0000 C CNN
+F 2 "nibble++:LED_0201_0603Metric_hand_soldering" H 10600 5750 50  0001 C CNN
+F 3 "~" H 10600 5750 50  0001 C CNN
+	1    10600 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5BE42E12
+P 10600 5450
+F 0 "D3" H 10600 5350 50  0000 C CNN
+F 1 "0402 LED Yellow" H 10600 5550 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 10600 5450 50  0001 C CNN
+F 3 "~" H 10600 5450 50  0001 C CNN
+	1    10600 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5BE42DE2
+P 10600 5150
+F 0 "D2" H 10600 5050 50  0000 C CNN
+F 1 "0603 LED Orange" H 10600 5250 50  0000 C CNN
+F 2 "nibble++:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder_simple_drawing" H 10600 5150 50  0001 C CNN
+F 3 "~" H 10600 5150 50  0001 C CNN
+	1    10600 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5BE42D2C
+P 10600 4850
+F 0 "D1" H 10600 4750 50  0000 C CNN
+F 1 "0805 LED Red" H 10600 4950 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 10600 4850 50  0001 C CNN
+F 3 "~" H 10600 4850 50  0001 C CNN
+	1    10600 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5F1D3B26
+P 5800 1700
+F 0 "Q?" H 6004 1746 50  0000 L CNN
+F 1 "2N7002" H 6004 1655 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6000 1625 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5800 1700 50  0001 L CNN
+	1    5800 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1750 3750 1750
+Wire Wire Line
+	3200 2700 1250 2700
+$Comp
+L Device:R R?
+U 1 1 5F23BF33
+P 5450 1700
+F 0 "R?" V 5243 1700 50  0000 C CNN
+F 1 "R" V 5334 1700 50  0000 C CNN
+F 2 "" V 5380 1700 50  0001 C CNN
+F 3 "~" H 5450 1700 50  0001 C CNN
+	1    5450 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F23C66C
+P 5900 1900
+F 0 "#PWR?" H 5900 1650 50  0001 C CNN
+F 1 "GND" H 5905 1727 50  0000 C CNN
+F 2 "" H 5900 1900 50  0001 C CNN
+F 3 "" H 5900 1900 50  0001 C CNN
+	1    5900 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F23CB79
+P 12900 1400
+F 0 "D?" H 12900 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 12900 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 12900 1400 50  0001 C CNN
+F 3 "~" H 12900 1400 50  0001 C CNN
+	1    12900 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F23D533
+P 12700 1400
+F 0 "D?" H 12700 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 12700 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 12700 1400 50  0001 C CNN
+F 3 "~" H 12700 1400 50  0001 C CNN
+	1    12700 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F23E217
+P 12500 1400
+F 0 "D?" H 12500 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 12500 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 12500 1400 50  0001 C CNN
+F 3 "~" H 12500 1400 50  0001 C CNN
+	1    12500 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F24B121
+P 12300 1400
+F 0 "D?" H 12300 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 12300 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 12300 1400 50  0001 C CNN
+F 3 "~" H 12300 1400 50  0001 C CNN
+	1    12300 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F2504CE
+P 12100 1400
+F 0 "D?" H 12100 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 12100 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 12100 1400 50  0001 C CNN
+F 3 "~" H 12100 1400 50  0001 C CNN
+	1    12100 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F2504D4
+P 11900 1400
+F 0 "D?" H 11900 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 11900 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 11900 1400 50  0001 C CNN
+F 3 "~" H 11900 1400 50  0001 C CNN
+	1    11900 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F2504DA
+P 11700 1400
+F 0 "D?" H 11700 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 11700 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 11700 1400 50  0001 C CNN
+F 3 "~" H 11700 1400 50  0001 C CNN
+	1    11700 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F2504E0
+P 11500 1400
+F 0 "D?" H 11500 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 11500 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 11500 1400 50  0001 C CNN
+F 3 "~" H 11500 1400 50  0001 C CNN
+	1    11500 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F261A10
+P 11300 1400
+F 0 "D?" H 11300 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 11300 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 11300 1400 50  0001 C CNN
+F 3 "~" H 11300 1400 50  0001 C CNN
+	1    11300 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F261A16
+P 11100 1400
+F 0 "D?" H 11100 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 11100 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 11100 1400 50  0001 C CNN
+F 3 "~" H 11100 1400 50  0001 C CNN
+	1    11100 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F261A1C
+P 10900 1400
+F 0 "D?" H 10900 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 10900 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 10900 1400 50  0001 C CNN
+F 3 "~" H 10900 1400 50  0001 C CNN
+	1    10900 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F261A22
+P 10700 1400
+F 0 "D?" H 10700 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 10700 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 10700 1400 50  0001 C CNN
+F 3 "~" H 10700 1400 50  0001 C CNN
+	1    10700 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F261A28
+P 10500 1400
+F 0 "D?" H 10500 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 10500 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 10500 1400 50  0001 C CNN
+F 3 "~" H 10500 1400 50  0001 C CNN
+	1    10500 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F261A2E
+P 10300 1400
+F 0 "D?" H 10300 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 10300 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 10300 1400 50  0001 C CNN
+F 3 "~" H 10300 1400 50  0001 C CNN
+	1    10300 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F261A34
+P 10100 1400
+F 0 "D?" H 10100 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 10100 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 10100 1400 50  0001 C CNN
+F 3 "~" H 10100 1400 50  0001 C CNN
+	1    10100 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F261A3A
+P 9900 1400
+F 0 "D?" H 9900 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 9900 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 9900 1400 50  0001 C CNN
+F 3 "~" H 9900 1400 50  0001 C CNN
+	1    9900 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F27ECB8
+P 9700 1400
+F 0 "D?" H 9700 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 9700 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 9700 1400 50  0001 C CNN
+F 3 "~" H 9700 1400 50  0001 C CNN
+	1    9700 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F27ECBE
+P 9500 1400
+F 0 "D?" H 9500 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 9500 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 9500 1400 50  0001 C CNN
+F 3 "~" H 9500 1400 50  0001 C CNN
+	1    9500 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F27ECC4
+P 9300 1400
+F 0 "D?" H 9300 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 9300 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 9300 1400 50  0001 C CNN
+F 3 "~" H 9300 1400 50  0001 C CNN
+	1    9300 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F27ECCA
+P 9100 1400
+F 0 "D?" H 9100 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 9100 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 9100 1400 50  0001 C CNN
+F 3 "~" H 9100 1400 50  0001 C CNN
+	1    9100 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F27ECD0
+P 8900 1400
+F 0 "D?" H 8900 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 8900 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 8900 1400 50  0001 C CNN
+F 3 "~" H 8900 1400 50  0001 C CNN
+	1    8900 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F27ECD6
+P 8700 1400
+F 0 "D?" H 8700 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 8700 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 8700 1400 50  0001 C CNN
+F 3 "~" H 8700 1400 50  0001 C CNN
+	1    8700 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F27ECDC
+P 8500 1400
+F 0 "D?" H 8500 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 8500 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 8500 1400 50  0001 C CNN
+F 3 "~" H 8500 1400 50  0001 C CNN
+	1    8500 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F27ECE2
+P 8300 1400
+F 0 "D?" H 8300 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 8300 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 8300 1400 50  0001 C CNN
+F 3 "~" H 8300 1400 50  0001 C CNN
+	1    8300 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F27ECE8
+P 8100 1400
+F 0 "D?" H 8100 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 8100 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 8100 1400 50  0001 C CNN
+F 3 "~" H 8100 1400 50  0001 C CNN
+	1    8100 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F27ECEE
+P 7900 1400
+F 0 "D?" H 7900 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 7900 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 7900 1400 50  0001 C CNN
+F 3 "~" H 7900 1400 50  0001 C CNN
+	1    7900 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F27ECF4
+P 7700 1400
+F 0 "D?" H 7700 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 7700 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 7700 1400 50  0001 C CNN
+F 3 "~" H 7700 1400 50  0001 C CNN
+	1    7700 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F27ECFA
+P 7500 1400
+F 0 "D?" H 7500 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 7500 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 7500 1400 50  0001 C CNN
+F 3 "~" H 7500 1400 50  0001 C CNN
+	1    7500 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F27ED00
+P 7300 1400
+F 0 "D?" H 7300 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 7300 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 7300 1400 50  0001 C CNN
+F 3 "~" H 7300 1400 50  0001 C CNN
+	1    7300 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F27ED06
+P 7100 1400
+F 0 "D?" H 7100 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 7100 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 7100 1400 50  0001 C CNN
+F 3 "~" H 7100 1400 50  0001 C CNN
+	1    7100 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F27ED0C
+P 6900 1400
+F 0 "D?" H 6900 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 6900 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 6900 1400 50  0001 C CNN
+F 3 "~" H 6900 1400 50  0001 C CNN
+	1    6900 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F27ED12
+P 6700 1400
+F 0 "D?" H 6700 1300 50  0000 C CNN
+F 1 "0805 LED Red" H 6700 1500 50  0000 C CNN
+F 2 "nibble++:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing" H 6700 1400 50  0001 C CNN
+F 3 "~" H 6700 1400 50  0001 C CNN
+	1    6700 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F27F58F
+P 6300 1250
+F 0 "R?" V 6093 1250 50  0000 C CNN
+F 1 "R" V 6184 1250 50  0000 C CNN
+F 2 "" V 6230 1250 50  0001 C CNN
+F 3 "~" H 6300 1250 50  0001 C CNN
+	1    6300 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 1550 6900 1550
+Connection ~ 6900 1550
+Wire Wire Line
+	6900 1550 7100 1550
+Connection ~ 7100 1550
+Wire Wire Line
+	7100 1550 7300 1550
+Connection ~ 7300 1550
+Wire Wire Line
+	7300 1550 7500 1550
+Connection ~ 7500 1550
+Wire Wire Line
+	7500 1550 7700 1550
+Connection ~ 7700 1550
+Wire Wire Line
+	7700 1550 7900 1550
+Connection ~ 7900 1550
+Wire Wire Line
+	7900 1550 8100 1550
+Connection ~ 8100 1550
+Wire Wire Line
+	8100 1550 8300 1550
+Connection ~ 8300 1550
+Wire Wire Line
+	8300 1550 8500 1550
+Connection ~ 8500 1550
+Wire Wire Line
+	8500 1550 8700 1550
+Connection ~ 8700 1550
+Wire Wire Line
+	8700 1550 8900 1550
+Connection ~ 8900 1550
+Wire Wire Line
+	8900 1550 9100 1550
+Connection ~ 9100 1550
+Wire Wire Line
+	9100 1550 9300 1550
+Connection ~ 9300 1550
+Wire Wire Line
+	9300 1550 9500 1550
+Connection ~ 9500 1550
+Wire Wire Line
+	9500 1550 9700 1550
+Connection ~ 9700 1550
+Wire Wire Line
+	9700 1550 9900 1550
+Connection ~ 9900 1550
+Wire Wire Line
+	9900 1550 10100 1550
+Connection ~ 10100 1550
+Wire Wire Line
+	10100 1550 10300 1550
+Connection ~ 10300 1550
+Wire Wire Line
+	10300 1550 10500 1550
+Connection ~ 10500 1550
+Wire Wire Line
+	10500 1550 10700 1550
+Connection ~ 10700 1550
+Wire Wire Line
+	10700 1550 10900 1550
+Connection ~ 10900 1550
+Wire Wire Line
+	10900 1550 11100 1550
+Connection ~ 11100 1550
+Wire Wire Line
+	11100 1550 11300 1550
+Connection ~ 11300 1550
+Wire Wire Line
+	11300 1550 11500 1550
+Connection ~ 11500 1550
+Wire Wire Line
+	11500 1550 11700 1550
+Connection ~ 11700 1550
+Wire Wire Line
+	11700 1550 11900 1550
+Connection ~ 11900 1550
+Wire Wire Line
+	11900 1550 12100 1550
+Connection ~ 12100 1550
+Wire Wire Line
+	12100 1550 12300 1550
+Connection ~ 12300 1550
+Wire Wire Line
+	12300 1550 12500 1550
+Connection ~ 12500 1550
+Wire Wire Line
+	12500 1550 12700 1550
+Connection ~ 12700 1550
+Wire Wire Line
+	12700 1550 12900 1550
+Connection ~ 12900 1550
+Wire Wire Line
+	12900 1550 13200 1550
+Wire Wire Line
+	12900 1250 12700 1250
+Connection ~ 6700 1250
+Wire Wire Line
+	6700 1250 6450 1250
+Connection ~ 6900 1250
+Wire Wire Line
+	6900 1250 6700 1250
+Connection ~ 7100 1250
+Wire Wire Line
+	7100 1250 6900 1250
+Connection ~ 7300 1250
+Wire Wire Line
+	7300 1250 7100 1250
+Connection ~ 7500 1250
+Wire Wire Line
+	7500 1250 7300 1250
+Connection ~ 7700 1250
+Wire Wire Line
+	7700 1250 7500 1250
+Connection ~ 7900 1250
+Wire Wire Line
+	7900 1250 7700 1250
+Connection ~ 8100 1250
+Wire Wire Line
+	8100 1250 7900 1250
+Connection ~ 8300 1250
+Wire Wire Line
+	8300 1250 8100 1250
+Connection ~ 8500 1250
+Wire Wire Line
+	8500 1250 8300 1250
+Connection ~ 8700 1250
+Wire Wire Line
+	8700 1250 8500 1250
+Connection ~ 8900 1250
+Wire Wire Line
+	8900 1250 8700 1250
+Connection ~ 9100 1250
+Wire Wire Line
+	9100 1250 8900 1250
+Connection ~ 9300 1250
+Wire Wire Line
+	9300 1250 9100 1250
+Connection ~ 9500 1250
+Wire Wire Line
+	9500 1250 9300 1250
+Connection ~ 9700 1250
+Wire Wire Line
+	9700 1250 9500 1250
+Connection ~ 9900 1250
+Wire Wire Line
+	9900 1250 9700 1250
+Connection ~ 10100 1250
+Wire Wire Line
+	10100 1250 9900 1250
+Connection ~ 10300 1250
+Wire Wire Line
+	10300 1250 10100 1250
+Connection ~ 10500 1250
+Wire Wire Line
+	10500 1250 10300 1250
+Connection ~ 10700 1250
+Wire Wire Line
+	10700 1250 10500 1250
+Connection ~ 10900 1250
+Wire Wire Line
+	10900 1250 10700 1250
+Connection ~ 11100 1250
+Wire Wire Line
+	11100 1250 10900 1250
+Connection ~ 11300 1250
+Wire Wire Line
+	11300 1250 11100 1250
+Connection ~ 11500 1250
+Wire Wire Line
+	11500 1250 11300 1250
+Connection ~ 11700 1250
+Wire Wire Line
+	11700 1250 11500 1250
+Connection ~ 11900 1250
+Wire Wire Line
+	11900 1250 11700 1250
+Connection ~ 12100 1250
+Wire Wire Line
+	12100 1250 11900 1250
+Connection ~ 12300 1250
+Wire Wire Line
+	12300 1250 12100 1250
+Connection ~ 12500 1250
+Wire Wire Line
+	12500 1250 12300 1250
+Connection ~ 12700 1250
+Wire Wire Line
+	12700 1250 12500 1250
+Wire Wire Line
+	6150 1250 5900 1250
+Wire Wire Line
+	5900 1250 5900 1500
+Wire Wire Line
+	5300 1700 4750 1700
+Wire Wire Line
+	4750 1700 4750 1750
+Wire Wire Line
+	3750 2050 3400 2050
+Wire Wire Line
+	3400 2050 3400 4250
+Wire Wire Line
+	3400 4250 3750 4250
+Text GLabel 13200 1550 2    50   Input ~ 0
+VS
+$EndSCHEMATC
