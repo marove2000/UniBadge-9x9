@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name unibatch)(type KiCad)(uri /home/timo/Nextcloud/Workspace/unibatch-9x9/kicad/unibatch-9x9.pretty)(options "")(descr ""))
+)
