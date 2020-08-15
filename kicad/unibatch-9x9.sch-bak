@@ -231,7 +231,7 @@ U 1 1 5BE7072A
 P 2950 900
 F 0 "SW1" V 2904 1048 50  0000 L CNN
 F 1 "SW_DPDT_x2" V 2995 1048 50  0000 L CNN
-F 2 "nibble++:smd_switch_slide" H 2950 900 50  0001 C CNN
+F 2 "unibatch:smd_switch_slide" H 2950 900 50  0001 C CNN
 F 3 "" H 2950 900 50  0001 C CNN
 	1    2950 900 
 	0    1    1    0   
@@ -494,7 +494,7 @@ U 1 1 5BE4528B
 P 4250 2250
 F 0 "U2" H 4000 3000 50  0000 C CNN
 F 1 "4017" H 4050 2900 50  0000 C CNN
-F 2 "nibble++:SOP-16_4.4x10.4mm_P1.27mm_simple_drawing" H 4250 2250 50  0001 C CNN
+F 2 "unibatch:SOP-16_4.4x10.4mm_P1.27mm_simple_drawing" H 4250 2250 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf" H 4250 2250 50  0001 C CNN
 	1    4250 2250
 	1    0    0    -1  

@@ -1,0 +1,118 @@
+Source,/home/timo/Nextcloud/Workspace/unibatch-9x9/kicad/unibatch-9x9.sch
+Kicad Rev,Eeschema 5.1.6
+Generated Date,Mon 10 Aug 2020 17:49:30 CEST
+
+Title,Nibble++
+Company,Binary Kitchen e.V.
+Revision,V1.0
+Date Issue,2018-11-11
+
+Reference,Value,Library,Library Ref
+C1,100n,Device,C
+C2,100n F,Device,C
+R1,100k Ohm,Device,R
+R2,100k Ohm,Device,R
+C3,1µ F,Device,C
+SW1,SW_DPDT_x2,Switch,SW_DPDT_x2
+BT1,Battery-Holder (2x AAA),Device,Battery_Cell
+U1,NE555D,Timer,NE555D
+Q1,2N7002,Transistor_FET,2N7002
+D9,0805 LED Red,Device,LED
+D8,0805 LED Red,Device,LED
+D7,0805 LED Red,Device,LED
+D6,0805 LED Red,Device,LED
+D5,0805 LED Red,Device,LED
+D4,0805 LED Red,Device,LED
+D3,0805 LED Red,Device,LED
+D2,0805 LED Red,Device,LED
+D1,0805 LED Red,Device,LED
+R3,R,Device,R
+U2,4017,4xxx,4017
+Q2,2N7002,Transistor_FET,2N7002
+D18,0805 LED Red,Device,LED
+D17,0805 LED Red,Device,LED
+D16,0805 LED Red,Device,LED
+D15,0805 LED Red,Device,LED
+D14,0805 LED Red,Device,LED
+D13,0805 LED Red,Device,LED
+D12,0805 LED Red,Device,LED
+D11,0805 LED Red,Device,LED
+D10,0805 LED Red,Device,LED
+R4,R,Device,R
+Q3,2N7002,Transistor_FET,2N7002
+D27,0805 LED Red,Device,LED
+D26,0805 LED Red,Device,LED
+D25,0805 LED Red,Device,LED
+D24,0805 LED Red,Device,LED
+D23,0805 LED Red,Device,LED
+D22,0805 LED Red,Device,LED
+D21,0805 LED Red,Device,LED
+D20,0805 LED Red,Device,LED
+D19,0805 LED Red,Device,LED
+R5,R,Device,R
+Q4,2N7002,Transistor_FET,2N7002
+D36,0805 LED Red,Device,LED
+D35,0805 LED Red,Device,LED
+D34,0805 LED Red,Device,LED
+D33,0805 LED Red,Device,LED
+D32,0805 LED Red,Device,LED
+D31,0805 LED Red,Device,LED
+D30,0805 LED Red,Device,LED
+D29,0805 LED Red,Device,LED
+D28,0805 LED Red,Device,LED
+R6,R,Device,R
+Q5,2N7002,Transistor_FET,2N7002
+D45,0805 LED Red,Device,LED
+D44,0805 LED Red,Device,LED
+D43,0805 LED Red,Device,LED
+D42,0805 LED Red,Device,LED
+D41,0805 LED Red,Device,LED
+D40,0805 LED Red,Device,LED
+D39,0805 LED Red,Device,LED
+D38,0805 LED Red,Device,LED
+D37,0805 LED Red,Device,LED
+R7,R,Device,R
+Q6,2N7002,Transistor_FET,2N7002
+D54,0805 LED Red,Device,LED
+D53,0805 LED Red,Device,LED
+D52,0805 LED Red,Device,LED
+D51,0805 LED Red,Device,LED
+D50,0805 LED Red,Device,LED
+D49,0805 LED Red,Device,LED
+D48,0805 LED Red,Device,LED
+D47,0805 LED Red,Device,LED
+D46,0805 LED Red,Device,LED
+R8,R,Device,R
+Q7,2N7002,Transistor_FET,2N7002
+D63,0805 LED Red,Device,LED
+D62,0805 LED Red,Device,LED
+D61,0805 LED Red,Device,LED
+D60,0805 LED Red,Device,LED
+D59,0805 LED Red,Device,LED
+D58,0805 LED Red,Device,LED
+D57,0805 LED Red,Device,LED
+D56,0805 LED Red,Device,LED
+D55,0805 LED Red,Device,LED
+R9,R,Device,R
+Q8,2N7002,Transistor_FET,2N7002
+D72,0805 LED Red,Device,LED
+D71,0805 LED Red,Device,LED
+D70,0805 LED Red,Device,LED
+D69,0805 LED Red,Device,LED
+D68,0805 LED Red,Device,LED
+D67,0805 LED Red,Device,LED
+D66,0805 LED Red,Device,LED
+D65,0805 LED Red,Device,LED
+D64,0805 LED Red,Device,LED
+R10,R,Device,R
+Q9,2N7002,Transistor_FET,2N7002
+D81,0805 LED Red,Device,LED
+D80,0805 LED Red,Device,LED
+D79,0805 LED Red,Device,LED
+D78,0805 LED Red,Device,LED
+D77,0805 LED Red,Device,LED
+D76,0805 LED Red,Device,LED
+D75,0805 LED Red,Device,LED
+D74,0805 LED Red,Device,LED
+D73,0805 LED Red,Device,LED
+R11,R,Device,R

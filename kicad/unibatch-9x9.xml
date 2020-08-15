@@ -1,0 +1,1448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/timo/Nextcloud/Workspace/unibatch-9x9/kicad/unibatch-9x9.sch</source>
+    <date>Mon 10 Aug 2020 17:49:30 CEST</date>
+    <tool>Eeschema 5.1.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Nibble++</title>
+        <company>Binary Kitchen e.V.</company>
+        <rev>V1.0</rev>
+        <date>2018-11-11</date>
+        <source>unibatch-9x9.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE454FE</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n F</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE5B433</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100k Ohm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE5B548</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100k Ohm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE5B5C6</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1µ F</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE5CF5C</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DPDT_x2</value>
+      <footprint>unibatch:smd_switch_slide</footprint>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE7072A</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery-Holder (2x AAA)</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE72A56</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>NE555D</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne555.pdf</datasheet>
+      <libsource lib="Timer" part="NE555D" description="Precision Timers, 555 compatible, SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1C16AF</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1D3B26</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F27ECE2</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F27ECE8</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F27ECEE</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F27ECF4</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F27ECFA</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F27ED00</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F27ED06</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F27ED0C</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F27ED12</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F27F58F</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>4017</value>
+      <footprint>unibatch:SOP-16_4.4x10.4mm_P1.27mm_simple_drawing</footprint>
+      <datasheet>http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf</datasheet>
+      <libsource lib="4xxx" part="4017" description="Johnson Counter ( 10 outputs )"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE4528B</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F281217</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2812B3</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2812B9</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2812BF</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2812C5</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2812CB</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2812D1</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2812D7</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2812DD</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2812E3</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2812E9</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF10F</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF1AB</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF1B1</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF1B7</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF1BD</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF1C3</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF1C9</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF1CF</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF1D5</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF1DB</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF1E1</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF267</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF303</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF309</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF30F</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF315</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF31B</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF321</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF327</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF32D</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF333</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2AF339</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325C59</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325CF5</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325CFB</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325D01</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325D07</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325D0D</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325D13</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325D19</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325D1F</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325D25</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325D2B</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325DB1</tstamp>
+    </comp>
+    <comp ref="D54">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325E4D</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325E53</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325E59</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325E5F</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325E65</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325E6B</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325E71</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325E77</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325E7D</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325E83</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325F09</tstamp>
+    </comp>
+    <comp ref="D63">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325FA5</tstamp>
+    </comp>
+    <comp ref="D62">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325FAB</tstamp>
+    </comp>
+    <comp ref="D61">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325FB1</tstamp>
+    </comp>
+    <comp ref="D60">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325FB7</tstamp>
+    </comp>
+    <comp ref="D59">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325FBD</tstamp>
+    </comp>
+    <comp ref="D58">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325FC3</tstamp>
+    </comp>
+    <comp ref="D57">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325FC9</tstamp>
+    </comp>
+    <comp ref="D56">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325FCF</tstamp>
+    </comp>
+    <comp ref="D55">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325FD5</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F325FDB</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F326061</tstamp>
+    </comp>
+    <comp ref="D72">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3260FD</tstamp>
+    </comp>
+    <comp ref="D71">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F326103</tstamp>
+    </comp>
+    <comp ref="D70">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F326109</tstamp>
+    </comp>
+    <comp ref="D69">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32610F</tstamp>
+    </comp>
+    <comp ref="D68">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F326115</tstamp>
+    </comp>
+    <comp ref="D67">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32611B</tstamp>
+    </comp>
+    <comp ref="D66">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F326121</tstamp>
+    </comp>
+    <comp ref="D65">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F326127</tstamp>
+    </comp>
+    <comp ref="D64">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32612D</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F326133</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F41DBC7</tstamp>
+    </comp>
+    <comp ref="D81">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F41DC63</tstamp>
+    </comp>
+    <comp ref="D80">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F41DC69</tstamp>
+    </comp>
+    <comp ref="D79">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F41DC6F</tstamp>
+    </comp>
+    <comp ref="D78">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F41DC75</tstamp>
+    </comp>
+    <comp ref="D77">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F41DC7B</tstamp>
+    </comp>
+    <comp ref="D76">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F41DC81</tstamp>
+    </comp>
+    <comp ref="D75">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F41DC87</tstamp>
+    </comp>
+    <comp ref="D74">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F41DC8D</tstamp>
+    </comp>
+    <comp ref="D73">
+      <value>0805 LED Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F41DC93</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F41DC99</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="4xxx" part="4017">
+      <description>Johnson Counter ( 10 outputs )</description>
+      <docs>http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4017</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Q5" type="output"/>
+        <pin num="2" name="Q1" type="output"/>
+        <pin num="3" name="Q0" type="output"/>
+        <pin num="4" name="Q2" type="output"/>
+        <pin num="5" name="Q6" type="output"/>
+        <pin num="6" name="Q7" type="output"/>
+        <pin num="7" name="Q3" type="output"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="Q8" type="output"/>
+        <pin num="10" name="Q4" type="output"/>
+        <pin num="11" name="Q9" type="output"/>
+        <pin num="12" name="Cout" type="output"/>
+        <pin num="13" name="CKEN" type="input"/>
+        <pin num="14" name="CLK" type="input"/>
+        <pin num="15" name="Reset" type="input"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPDT_x2">
+      <description>Switch, dual pole double throw, separate symbols</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPDT_x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="NE555D">
+      <aliases>
+        <alias>LM555xM</alias>
+        <alias>ICM7555xB</alias>
+        <alias>LMC555xM</alias>
+        <alias>MC1455B</alias>
+        <alias>TLC555xD</alias>
+        <alias>NA555D</alias>
+        <alias>SE555D</alias>
+        <alias>SA555D</alias>
+      </aliases>
+      <description>Precision Timers, 555 compatible, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ne555.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NE555D</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML0030</alias>
+        <alias>IRLML2060</alias>
+        <alias>TSM2302CX</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="4xxx">
+      <uri>/usr/share/kicad/library/4xxx.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="Timer">
+      <uri>/usr/share/kicad/library/Timer.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/library/Transistor_FET.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q7-Pad3)">
+      <node ref="Q7" pin="3"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="Q9" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D55-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="D55" pin="1"/>
+      <node ref="D56" pin="1"/>
+      <node ref="D57" pin="1"/>
+      <node ref="D58" pin="1"/>
+      <node ref="D59" pin="1"/>
+      <node ref="D60" pin="1"/>
+      <node ref="D61" pin="1"/>
+      <node ref="D62" pin="1"/>
+      <node ref="D63" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D46-Pad1)">
+      <node ref="D51" pin="1"/>
+      <node ref="D49" pin="1"/>
+      <node ref="D50" pin="1"/>
+      <node ref="D47" pin="1"/>
+      <node ref="D52" pin="1"/>
+      <node ref="D54" pin="1"/>
+      <node ref="D53" pin="1"/>
+      <node ref="D48" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="D46" pin="1"/>
+    </net>
+    <net code="5" name="Net-(Q6-Pad3)">
+      <node ref="R8" pin="2"/>
+      <node ref="Q6" pin="3"/>
+    </net>
+    <net code="6" name="Net-(Q7-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="7" name="Net-(Q8-Pad1)">
+      <node ref="Q8" pin="1"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="8" name="Net-(D37-Pad1)">
+      <node ref="D44" pin="1"/>
+      <node ref="D43" pin="1"/>
+      <node ref="D42" pin="1"/>
+      <node ref="D45" pin="1"/>
+      <node ref="D41" pin="1"/>
+      <node ref="D40" pin="1"/>
+      <node ref="D39" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="D37" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="9" name="Net-(Q5-Pad3)">
+      <node ref="Q5" pin="3"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="10" name="Net-(Q6-Pad1)">
+      <node ref="U2" pin="1"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="11" name="VS">
+      <node ref="D4" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D22" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D17" pin="2"/>
+      <node ref="D18" pin="2"/>
+      <node ref="D23" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="D24" pin="2"/>
+      <node ref="D27" pin="2"/>
+      <node ref="U2" pin="16"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="D26" pin="2"/>
+      <node ref="D25" pin="2"/>
+      <node ref="D60" pin="2"/>
+      <node ref="D21" pin="2"/>
+      <node ref="D77" pin="2"/>
+      <node ref="D73" pin="2"/>
+      <node ref="D74" pin="2"/>
+      <node ref="D75" pin="2"/>
+      <node ref="D76" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D19" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D78" pin="2"/>
+      <node ref="D79" pin="2"/>
+      <node ref="D80" pin="2"/>
+      <node ref="D81" pin="2"/>
+      <node ref="D20" pin="2"/>
+      <node ref="D12" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="D45" pin="2"/>
+      <node ref="D28" pin="2"/>
+      <node ref="D29" pin="2"/>
+      <node ref="D30" pin="2"/>
+      <node ref="D32" pin="2"/>
+      <node ref="D33" pin="2"/>
+      <node ref="D34" pin="2"/>
+      <node ref="D35" pin="2"/>
+      <node ref="D36" pin="2"/>
+      <node ref="D43" pin="2"/>
+      <node ref="D44" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D31" pin="2"/>
+      <node ref="D13" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="8"/>
+      <node ref="D49" pin="2"/>
+      <node ref="D50" pin="2"/>
+      <node ref="D51" pin="2"/>
+      <node ref="D52" pin="2"/>
+      <node ref="D53" pin="2"/>
+      <node ref="D54" pin="2"/>
+      <node ref="D46" pin="2"/>
+      <node ref="D47" pin="2"/>
+      <node ref="D48" pin="2"/>
+      <node ref="D63" pin="2"/>
+      <node ref="D69" pin="2"/>
+      <node ref="D71" pin="2"/>
+      <node ref="D64" pin="2"/>
+      <node ref="D70" pin="2"/>
+      <node ref="D62" pin="2"/>
+      <node ref="D68" pin="2"/>
+      <node ref="D67" pin="2"/>
+      <node ref="D61" pin="2"/>
+      <node ref="D72" pin="2"/>
+      <node ref="D55" pin="2"/>
+      <node ref="D56" pin="2"/>
+      <node ref="D57" pin="2"/>
+      <node ref="D65" pin="2"/>
+      <node ref="D58" pin="2"/>
+      <node ref="D59" pin="2"/>
+      <node ref="D41" pin="2"/>
+      <node ref="D38" pin="2"/>
+      <node ref="D39" pin="2"/>
+      <node ref="D40" pin="2"/>
+      <node ref="D42" pin="2"/>
+      <node ref="D37" pin="2"/>
+      <node ref="D66" pin="2"/>
+    </net>
+    <net code="12" name="Net-(Q9-Pad3)">
+      <node ref="Q9" pin="3"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D73-Pad1)">
+      <node ref="D78" pin="1"/>
+      <node ref="D76" pin="1"/>
+      <node ref="D77" pin="1"/>
+      <node ref="D79" pin="1"/>
+      <node ref="D75" pin="1"/>
+      <node ref="D74" pin="1"/>
+      <node ref="D73" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="D80" pin="1"/>
+      <node ref="D81" pin="1"/>
+    </net>
+    <net code="14" name="Net-(Q4-Pad1)">
+      <node ref="U2" pin="7"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="15" name="Net-(Q5-Pad1)">
+      <node ref="U2" pin="10"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="16" name="Net-(Q9-Pad1)">
+      <node ref="Q9" pin="1"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="17" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="19" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="20" name="Net-(Q1-Pad1)">
+      <node ref="U2" pin="3"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="21" name="Net-(Q2-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="22" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="23" name="Net-(D64-Pad1)">
+      <node ref="D65" pin="1"/>
+      <node ref="D64" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="D66" pin="1"/>
+      <node ref="D71" pin="1"/>
+      <node ref="D70" pin="1"/>
+      <node ref="D69" pin="1"/>
+      <node ref="D68" pin="1"/>
+      <node ref="D67" pin="1"/>
+      <node ref="D72" pin="1"/>
+    </net>
+    <net code="24" name="Net-(Q8-Pad3)">
+      <node ref="R10" pin="2"/>
+      <node ref="Q8" pin="3"/>
+    </net>
+    <net code="25" name="Net-(D1-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="26" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="27" name="Net-(Q2-Pad3)">
+      <node ref="R4" pin="2"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="28" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="29" name="Net-(R1-Pad2)">
+      <node ref="U1" pin="7"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="30" name="+3V3">
+      <node ref="SW1" pin="2"/>
+      <node ref="BT1" pin="1"/>
+    </net>
+    <net code="31" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="32" name="Net-(C3-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="33" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="34" name="Net-(D28-Pad1)">
+      <node ref="D35" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="D33" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D29" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D36" pin="1"/>
+    </net>
+    <net code="35" name="Net-(Q3-Pad3)">
+      <node ref="R5" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="36" name="Net-(Q4-Pad3)">
+      <node ref="R6" pin="2"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="37" name="Net-(D10-Pad1)">
+      <node ref="D18" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D17" pin="1"/>
+    </net>
+    <net code="38" name="Net-(D19-Pad1)">
+      <node ref="D22" pin="1"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D24" pin="1"/>
+    </net>
+  </nets>
+</export>
