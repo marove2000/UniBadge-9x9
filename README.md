@@ -1,7 +1,7 @@
 # UniBadge 9x9
 A simple Badge PCP with 9x9 LEDs. Create symbols, figures, pxiel-art by just soldering LEDs to the spots you want. No programming needed. 
 
-<img src="images/unibadge_front.png" width=400px alt="UniBadge 9x9 front"> <img src="images/unibadge_front.png" width=400px alt="UniBadge 9x9 front">
+<img src="images/unibadge_front.png" width=400px alt="UniBadge 9x9 front"> <img src="images/unibadge_back.png" width=400px alt="UniBadge 9x9 front">
 
 ## Bill of Material
 | Designator | Package            | Quantity | Designation                    |
