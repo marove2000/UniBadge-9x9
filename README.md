@@ -26,7 +26,7 @@ The frequency is determined by the value of C3. Always on: The frequency is so f
 | always on | 10n F                      | 
 
 ### Resistor-Table for R3-R11
-Resistor values depend on the number of soldered LEDs per row (refer to the table below). Note that you can only choose one LED-Color per row.
+Resistor values depend on the number of soldered LEDs per row (refer to the table below). Note that you can only choose one LED color per row.
 
 | \# LEDs | Resistor Value (R3-R11) \[Ohm\] | LED-Color |
 | ------- | ------------------------------- | --------- |
