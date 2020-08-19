@@ -6,29 +6,29 @@ A simple Badge PCP with 9x9 LEDs. Create symbols, figures, pixel art by just sol
 ## Bill of Material
 | Designator | Package            | Quantity | Designation                    |
 | ---------- | ------------------ | -------- | ------------------------------ |
-| BT1        | 2-Pin Connector    | 1        | Battery-Holder (2x AAA)        |
-| C1, C2     | 100n F             | 2        |                                |
-| C3         | 0805 SMD Capacitor | 1        | variable (see capaictor table) |
+| BT1        | 2-Pin connector    | 1        | Battery-Holder (2xAAA)         |
+| C1, C2     | 100nF              | 2        |                                |
+| C3         | 0805 SMD capacitor | 1        | variable (see capaictor table) |
 | D1-D81     | 0805 SMD LED       | 1-81     | LED Red                        |
 | Q1-Q9      | Mosfet             | 9        | 2N7002                         |
-| R1, R2     | 0805 SMD Resistor  | 2        | 100k Ohm                       |
-| R3-R11     | 0805 SMD Resistor  | 9        | variable (see resistor table)  |
-| SW1        | SMD Switch         | 1        |                                |
+| R1, R2     | 0805 SMD resistor  | 2        | 100k                           |
+| R3-R11     | 0805 SMD resistor  | 9        | variable (see resistor table)  |
+| SW1        | SMD switch         | 1        |                                |
 | U1         | SOIC-8 NE555       | 1        |                                |
 | U2         | SOP-16 CD4017      | 1        |                                |
 
 ### Capacitor-Table for C3
 The frequency is determined by the value of C3. Always on: The frequency is so fast, it looks like all (soldered) LEDs are always on.
 
-| Frequency | Capacitor Value (C3) \[F\] |
+| Frequency | Capacitor Value (C3)       |
 | --------- | -------------------------- |
-| slow      | 1µ F                       |
-| always on | 10n F                      | 
+| slow      | 1µF                        |
+| always on | 10nF                       |
 
 ### Resistor-Table for R3-R11
 Resistor values depend on the number of soldered LEDs per row (refer to the table below). Note that you can only choose one LED color per row.
 
-| \# LEDs | Resistor Value (R3-R11) \[Ohm\] | LED-Color |
+| \# LEDs | Resistor value (R3-R11) \[Ohm\] | LED color |
 | ------- | ------------------------------- | --------- |
 | 1       | 27                              | red       |
 | 2       | 13                              | red       |
