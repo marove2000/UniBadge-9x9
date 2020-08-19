@@ -63,4 +63,4 @@ The Logos to the PCB are created with an Inkscape plugin
 - Place logo
 - Extensions -> svg2shenshen -> Export Kicad (Kicad-module)
 - Copy .kicad_mod in .pretty-folder
-- Place as Part
+- Place as part
