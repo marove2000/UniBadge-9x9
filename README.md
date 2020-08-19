@@ -51,7 +51,7 @@ TBD
 ## Acknowledgments
 A big thank you goes to Thomas Schmid, Clemens Grünewald and Sandra Schweighart for all the help!
 
-Frequency-calculation done with https://ohmslawcalculator.com/555-astable-calculator
+The calculation of the frequency done with https://ohmslawcalculator.com/555-astable-calculator
 
 ## Misc: Logo to PCB
 The Logos to the PCB are created with an Inkscape plugin
