@@ -49,7 +49,7 @@ TBD
 - Manual (pdf): [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - [Binary Kitchen e.V.](https://www.binary-kitchen.de)
 
 ## Acknowledgments
-A big thank you goes to Thomas Schmid, Clemens Grünewald and Sandra Schweighart for alle the help!
+A big thank you goes to Thomas Schmid, Clemens Grünewald and Sandra Schweighart for all the help!
 
 Frequency-calculation done with https://ohmslawcalculator.com/555-astable-calculator
 
