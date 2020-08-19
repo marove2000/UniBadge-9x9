@@ -26,7 +26,7 @@ The frequency can be set by different capacitors for C3. Always on: The frequenc
 | always on | 10n F                      | 
 
 ### Resistor-Table for R3-R11
-Depending on the amount of soldered LEDs per row and depending on the color of the row, you need different resistor sizes (see table below). Careful: You can only chose one LED-Color per row!
+Resistor values depend on the number of soldered LEDs per row (refer to the table below). Note that you can only choose one LED-Color per row.
 
 | \# LEDs | Resistor Value (R3-R11) \[Ohm\] | LED-Color |
 | ------- | ------------------------------- | --------- |
