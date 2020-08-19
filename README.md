@@ -18,7 +18,7 @@ A simple Badge PCP with 9x9 LEDs. Create symbols, figures, pixel art by just sol
 | U2         | SOP-16 CD4017      | 1        |                                |
 
 ### Capacitor-Table for C3
-The frequency can be set by different capacitors for C3. Always on: The frequency is so fast, it looks like all (soldered) LEDs are always on.
+The frequency is determined by the value of C3. Always on: The frequency is so fast, it looks like all (soldered) LEDs are always on.
 
 | Frequency | Capacitor Value (C3) \[F\] |
 | --------- | -------------------------- |
