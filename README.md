@@ -20,25 +20,26 @@ A simple badge PCP with 9x9 LEDs. Create symbols, figures, pixel art by just sol
 ### Capacitor-Table for C3
 The frequency is determined by the value of C3. Always on: The frequency is so fast, it looks like all (soldered) LEDs are always on.
 
-| Frequency | Capacitor Value (C3)       |
-| --------- | -------------------------- |
-| slow      | 1µF                        |
-| always on | 10nF                       |
+| Frequency          | Capacitor Value (C3)       |
+| ------------------ | -------------------------- |
+| slow (~5Hz)        | 1µF                        |
+| faster (~50Hz)     | 10nF                       |
+| always on (~110Hz) | 4700pF                     |
 
 ### Resistor-Table for R3-R11
 Resistor values depend on the number of soldered LEDs per row (refer to the table below). Note that you can only choose one LED color per row.
 
-| \# LEDs | Resistor value (R3-R11) \[Ohm\] | LED color |
-| ------- | ------------------------------- | --------- |
-| 1       | 27                              | red       |
-| 2       | 13                              | red       |
-| 3       | 9,1                             | red       |
-| 4       | 6,8                             | red       |
-| 5       | 5,1                             | red       |
-| 6       | 4,3                             | red       |
-| 7       | 3,9                             | red       |
-| 8       | 3,3                             | red       |
-| 9       | 3                               | red       |
+| Number of LEDs | Resistor value for red LEDs | Resistor value for green LEDs (bright!) |
+| -------------- | --------------------------- | --------------------------------------- |
+| 1              | 56 Ohm                      | 110 Ohm                                 |
+| 2              | 27 Ohm                      | 56 Ohm                                  |
+| 3              | 18 Ohm                      | 36 Ohm                                  |
+| 4              | 15 Ohm                      | 30 Ohm                                  |
+| 5              | 11 Ohm                      | 22 Ohm                                  |
+| 6              | 9,1 Ohm                     | 18 Ohm                                  |
+| 7              | 8,2 Ohm                     | 16 Ohm                                  |
+| 8              | 6,8 Ohm                     | 13 Ohm                                  |
+| 9              | 6,2 Ohm                     | 12 Ohm                                  |
 
 ## Manual
 TBD
