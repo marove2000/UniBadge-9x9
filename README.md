@@ -47,6 +47,14 @@ TBD
 ## Some creations
 Some $humans did an amazing job. Here are some awesome examples:
 <img src="images/gifs/01.gif" width=320px alt="UniBadge 9x9 creation"> <img src="images/gifs/02.gif" width=320px alt="UniBadge 9x9 creation">
+<img src="images/gifs/03.gif" width=320px alt="UniBadge 9x9 creation"> <img src="images/gifs/04.gif" width=320px alt="UniBadge 9x9 creation">
+<img src="images/gifs/05.gif" width=320px alt="UniBadge 9x9 creation"> <img src="images/gifs/06.gif" width=320px alt="UniBadge 9x9 creation">
+<img src="images/gifs/07.gif" width=320px alt="UniBadge 9x9 creation"> <img src="images/gifs/08.gif" width=320px alt="UniBadge 9x9 creation">
+<img src="images/gifs/09.gif" width=320px alt="UniBadge 9x9 creation"> <img src="images/gifs/10.gif" width=320px alt="UniBadge 9x9 creation">
+<img src="images/gifs/11.gif" width=320px alt="UniBadge 9x9 creation"> <img src="images/gifs/12.gif" width=320px alt="UniBadge 9x9 creation">
+<img src="images/gifs/13.gif" width=320px alt="UniBadge 9x9 creation"> <img src="images/gifs/14.gif" width=320px alt="UniBadge 9x9 creation">
+<img src="images/gifs/15.gif" width=320px alt="UniBadge 9x9 creation"> <img src="images/gifs/16.gif" width=320px alt="UniBadge 9x9 creation">
+<img src="images/gifs/17.gif" width=320px alt="UniBadge 9x9 creation"> <img src="images/gifs/18.gif" width=320px alt="UniBadge 9x9 creation">
 
 
 ## Copyright and Authorship
