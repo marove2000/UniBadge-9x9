@@ -9,7 +9,7 @@ A simple badge PCP with 9x9 LEDs. Create symbols, figures, pixel art by just sol
 | BT1        | 2-Pin connector    | 1        | Battery-Holder (2xAAA)         |
 | C1, C2     | 100nF              | 2        |                                |
 | C3         | 0805 SMD capacitor | 1        | variable (see capaictor table) |
-| D1-D81     | 0805 SMD LED       | 1-81     | LED Red                        |
+| D1-D81     | 0805 SMD LED       | 1-81     | LED red, green, orange, ...    |
 | Q1-Q9      | Mosfet             | 9        | 2N7002                         |
 | R1, R2     | 0805 SMD resistor  | 2        | 100k                           |
 | R3-R11     | 0805 SMD resistor  | 9        | variable (see resistor table)  |
@@ -24,7 +24,7 @@ The frequency is determined by the value of C3. Always on: The frequency is so f
 | ------------------ | -------------------------- |
 | slow (~5Hz)        | 1µF                        |
 | faster (~50Hz)     | 10nF                       |
-| always on (~110Hz) | 4700pF                     |
+| always on (~110Hz) | 4700pF / 4,7nF             |
 
 ### Resistor-Table for R3-R11
 Resistor values depend on the number of soldered LEDs per row (refer to the table below). Note that you can only choose one LED color per row.
@@ -43,6 +43,11 @@ Resistor values depend on the number of soldered LEDs per row (refer to the tabl
 
 ## Manual
 TBD
+
+## Some creations
+Some $humans did an amazing job. Here are some awesome examples:
+<img src="images/gifs/01.gif" width=320px alt="UniBadge 9x9 creation"> <img src="images/gifs/02.gif" width=320px alt="UniBadge 9x9 creation">
+
 
 ## Copyright and Authorship
 - PCB layout: [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - [Thomas Schmid and Timo Schindler](https://www.binary-kitchen.de)
